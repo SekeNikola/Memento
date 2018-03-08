@@ -1,0 +1,20 @@
+{
+  "name": "memento",
+  "version": "1.0.0",
+  "description": "![alt text](http://res.cloudinary.com/sekenikola/image/upload/v1520349813/Artboard_1_3x_hqmlfk.png)",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-css": "^0.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

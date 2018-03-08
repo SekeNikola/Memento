@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="icon" type="image/png" href="img/favicon32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon16x16.png" sizes="16x16">
+
+    <title>Memento</title>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="wrapper">
+            <div class="todo">
+                <input id="task" placeholder="New Task">
+                <button id="add">Add</button>
+                <div id="todos"></div>
+                <ul id="tasks"></ul>
+            </div>
+            <div class="weather">
+                <div class="temperature">
+                    <span id="temperature">0</span>&deg;
+                            <span id="icon"></span>
+                        </div>
+                <div class="location">
+                    <span id="location">Unknown</span>
+                </div>
+                <div class="description">
+                    <span id="description">Unknown</span>
+                </div>
+                
+            </div>
+
+            <div id="clock"></div>
+
+            <div class="google">
+                <form action="http://www.google.com/search" method="get">
+                    <input type="hidden" name="q" value="site:http://example.com">
+                    <input id="search" type="text" name="q" alt="search" required placeholder="Search on Google">
+                    <button class="button" type="submit"><i class="fa fa-search fa-3x"></i></button>
+                </form>
+            </div>
+
+            <div class="quotes">
+                <div class="quote-box">
+                    <div id="quote"></div>
+                    <br>
+                    <div id="author"></div>
+
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="#" class="get-quote">
+                            <i class="fa fa-refresh"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="share-quote twitter-share" data-js="twitter-share">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/libs.js"></script>
+    <!-- <script src="js/clock.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body> -->
+
+</html>
